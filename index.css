@@ -28,9 +28,68 @@ ul {
 }
 
 .letters li {
-  position: relative;
+  position: absolute;
   list-style: none;
-  margin-left: 20px;
+  top: 50px;
+  transition: 4s;
+}
+
+.letters .letter_first_a {
+  left: 300px;
+}
+.letters .letter_first_e {
+  left: 350px;
+}
+.letters .letter_second_a {
+  left: 400px;
+}
+.letters .letter_first_t {
+  left: 450px;
+}
+.letters .letter_first_x {
+  left: 500px;
+}
+.letters .letter_first_p {
+  left: 550px;
+}
+.letters .letter_second_e {
+  left: 600px;
+}
+.letters .letter_third_e {
+  left: 650px;
+}
+.letters .letter_first_i {
+  left: 700px;
+}
+.letters .letter_first_n {
+  left: 750px;
+}
+.letters .letter_first_r {
+  left: 800px;
+}
+.letters .letter_second_r {
+  left: 850px;
+}
+.letters .letter_third_r {
+  left: 900px;
+}
+.letters .letter_fourth_e {
+  left: 950px;
+}
+.letters .letter_first_u {
+  left: 1000px;
+}
+.letters .letter_second_u {
+  left: 1050px;
+}
+.letters .letter_second_t {
+  left: 1100px;
+}
+.letters .letter_first_v {
+  left: 1150px;
+}
+.letters .letter_first_l {
+  left: 1200px;
 }
 
 .letters li input {
@@ -50,7 +109,6 @@ ul {
 .letters.moved-letters li {
   position: absolute;
   left: 0;
-  top: 50px;
 }
 
 .letters.moved-letters li.letter_first_v {
