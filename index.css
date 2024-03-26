@@ -3,10 +3,11 @@ body {
   padding: 24px;
 }
 
-p {
+.japan-picture {
+  display: block;
   color: white;
-  margin: 0;
-  text-align: center;
+  margin: 0 auto;
+  width: 30px;
 }
 
 ul {
