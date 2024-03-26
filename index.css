@@ -3,9 +3,19 @@ body {
   padding: 24px;
 }
 
+p {
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
 ul {
   padding: 0;
   margin: 0;
+}
+
+.movies {
+  transform: rotateY(180deg);
 }
 
 .movies li {
